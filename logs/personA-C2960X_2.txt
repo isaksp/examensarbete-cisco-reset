@@ -1,0 +1,317 @@
+10:31:14 
+10:31:14 CPU rev: B
+10:31:18 Image passed digital signature verification
+10:31:18 Board rev: 25
+10:31:19 Testing DataBus...
+10:31:19 Testing AddressBus...
+10:31:41 Testing Memory from 0x00000000 to 0x1fffffff...  - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / 
+10:31:42 Using driver version 4 for media type 1
+10:32:21 Xmodem file system is available.
+10:32:22 Base ethernet MAC Address: [*REDACTED*]
+10:32:22 The password-recovery mechanism is enabled.
+10:32:22 APM USBUSB EHCI 1.00
+10:32:23 USB EHCI 1.00
+10:32:24 USB Console INIT
+10:32:25 
+10:32:25 The system has been interrupted prior to initializing the
+10:32:25 flash filesystem.  The following commands will initialize
+10:32:25 the flash filesystem, and finish loading the operating 
+10:32:25 system software:
+10:32:25 
+10:32:25     flash_init
+10:32:25     boot
+10:32:25 
+10:32:25 
+10:32:36 
+10:32:36 switch: 
+10:32:36 
+10:32:39 flash_init
+10:32:39 switch: flash_init
+10:32:39 Initializing Flash...
+10:32:40 
+10:32:40 
+10:32:40 mifs[5]: 13 files, 1 directories
+10:32:40 mifs[5]: Total bytes     :    1806336
+10:32:40 mifs[5]: Bytes used      :     868864
+10:32:40 mifs[5]: Bytes available :     937472
+10:32:40 mifs[5]: mifs fsck took 0 seconds.
+10:32:40 
+10:32:40 
+10:32:41 
+10:32:41 
+10:32:41 mifs[6]: 2 files, 1 directories
+10:32:41 
+10:32:41 
+10:32:41 mifs[6]: Total bytes     :    3870720
+10:32:41 
+10:32:41 mifs[6]: Bytes used      :    1213440
+10:32:41 
+10:32:41 mifs[6]: Bytes available :    2657280
+10:32:41 
+10:32:41 mifs[6]: mifs fsck took 1 seconds.
+10:32:41 
+10:32:41 
+10:32:41 mifs[7]: 5 files, 1 directories
+10:32:41 
+10:32:41 mifs[7]: Total bytes     :     258048
+10:32:41 
+10:32:41 mifs[7]: Bytes used      :       8192
+10:32:41 
+10:32:41 
+10:32:41 mifs[7]: Bytes available :     249856
+10:32:41 
+10:32:41 mifs[7]: mifs fsck took 0 seconds.
+10:32:41 
+10:32:41 mifs[8]: 5 files, 1 directories
+10:32:41 
+10:32:41 mifs[8]: Total bytes     :     258048
+10:32:41 
+10:32:41 
+10:32:41 mifs[8]: Bytes used      :       8192
+10:32:41 
+10:32:41 mifs[8]: Bytes available :     249856
+10:32:41 
+10:32:41 
+10:32:41 mifs[8]: mifs fsck took 1 seconds.
+10:32:41  -- MORE --
+10:32:41 
+10:32:41 
+10:33:31 
+10:33:31 mifs[9]: 653 files, 20 directories
+10:33:31 
+10:33:31 
+10:33:31 mifs[9]: Total bytes     :  122185728
+10:33:31 
+10:33:31 mifs[9]: Bytes used      :   53918208
+10:33:31 
+10:33:31 
+10:33:31 mifs[9]: Bytes available :   68267520
+10:33:31 mifs[9]: mifs fsck took 50 seconds.
+10:33:31 
+10:33:31 
+10:33:31 ...done Initializing Flash.
+10:33:31 
+10:33:33 
+10:33:33 
+10:33:33 
+10:33:33 switch: 
+10:33:33 
+10:33:33 
+10:33:33 switch: 
+10:33:33 
+10:33:40 delete flash:config.text
+10:33:40 switch: delete flash:config.text
+10:33:41 
+10:33:41 Are you sure you want to delete "flash:config.text" (y/n)?
+10:33:41 File "flash:config.text" not deleted
+10:33:41 
+10:33:43 delete flash:config.text
+10:33:43 switch: delete flash:config.text
+10:33:44 y
+10:33:44 Are you sure you want to delete "flash:config.text" (y/n)?y
+10:33:44 File "flash:config.text" deleted
+10:33:44 
+10:33:45 
+10:33:45 switch: 
+10:33:45 
+10:33:45 
+10:33:45 switch: 
+10:33:45 
+10:33:46 boot
+10:33:46 switch: boot
+10:34:07 Loading "flash:c2960x-universalk9-mz.152-7.E0a.bin"...Verifying image flash:c2960x-universalk9-mz.152-7.E0a.bin.....................................................................................................................................................................................................................................................................................................................................................................................................................Image passed digital signature verification
+10:35:02 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+10:35:03 File "flash:c2960x-universalk9-mz.152-7.E0a.bin" uncompressed and installed, entry point: 0x3000
+10:35:03 executing...
+10:35:06 
+10:35:06               Restricted Rights Legend
+10:35:06 
+10:35:06 Use, duplication, or disclosure by the Government is
+10:35:06 subject to restrictions as set forth in subparagraph
+10:35:06 (c) of the Commercial Computer Software - Restricted
+10:35:06 Rights clause at FAR sec. 52.227-19 and subparagraph
+10:35:06 (c) (1) (ii) of the Rights in Technical Data and Computer
+10:35:06 Software clause at DFARS sec. 252.227-7013.
+10:35:06 
+10:35:06            cisco Systems, Inc.
+10:35:06            170 West Tasman Drive
+10:35:06            San Jose, California 95134-1706
+10:35:06 
+10:35:06 
+10:35:06 
+10:35:06 Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(7)E0a, RELEASE SOFTWARE (fc1)
+10:35:06 Technical Support: http://www.cisco.com/techsupport
+10:35:06 Copyright (c) 1986-2019 by Cisco Systems, Inc.
+10:35:06 Compiled Fri 12-Apr-19 04:09 by prod_rel_team
+10:35:06 Initializing flashfs...
+10:35:07 Using driver version 4 for media type 1
+10:35:07 mifs[7]: 13 files, 1 directories
+10:35:07 mifs[7]: Total bytes     : 1806336   
+10:35:07 mifs[7]: Bytes used      : 868864    
+10:35:07 mifs[7]: Bytes available : 937472    
+10:35:08 mifs[7]: mifs fsck took 0 seconds.
+10:35:08 mifs[7]: Initialization complete.
+10:35:08 
+10:35:08 mifs[8]: 2 files, 1 directories
+10:35:08 mifs[8]: Total bytes     : 3870720   
+10:35:08 mifs[8]: Bytes used      : 1213440   
+10:35:08 mifs[8]: Bytes available : 2657280   
+10:35:08 mifs[8]: mifs fsck took 1 seconds.
+10:35:08 mifs[8]: Initialization complete.
+10:35:08 
+10:35:08 mifs[9]: 5 files, 1 directories
+10:35:08 mifs[9]: Total bytes     : 258048    
+10:35:09 mifs[9]: Bytes used      : 8192      
+10:35:09 mifs[9]: Bytes available : 249856    
+10:35:09 mifs[9]: mifs fsck took 0 seconds.
+10:35:09 mifs[9]: Initialization complete.
+10:35:09 
+10:35:09 mifs[10]: 5 files, 1 directories
+10:35:09 mifs[10]: Total bytes     : 258048    
+10:35:09 mifs[10]: Bytes used      : 8192      
+10:35:09 mifs[10]: Bytes available : 249856    
+10:35:09 mifs[10]: mifs fsck took 0 seconds.
+10:35:09 mifs[10]: Initialization complete.
+10:35:09 
+10:35:44 mifs[11]: 653 files, 20 directories
+10:35:44 mifs[11]: Total bytes     : 122185728 
+10:35:44 mifs[11]: Bytes used      : 53918208  
+10:35:44 mifs[11]: Bytes available : 68267520  
+10:35:44 mifs[11]: mifs fsck took 1 seconds.
+10:35:44 mifs[11]: Initialization complete.
+10:35:44 
+10:35:44 ...done Initializing flashfs.
+10:35:44 Checking for Bootloader upgrade..
+10:35:44 Boot Loader upgrade not needed(v)
+10:35:46 
+10:35:46 
+10:35:46 FIPS: Flash Key Check : Begin
+10:35:47 FIPS: Flash Key Check : End, Not Found, FIPS Mode Not Enabled
+10:35:55 
+10:35:56 extracting front_end/front_end_ucode_info (43 bytes)
+10:35:57 POST: MA BIST : Begin
+10:35:57 POST: MA BIST : End, Status Passed
+10:35:57 
+10:35:57 POST: TCAM BIST : Begin
+10:35:57 POST: TCAM BIST : End, Status Passed
+10:35:59 
+10:36:07 POST: ACT2 Authentication : Begin
+10:36:09 POST: ACT2 Authentication : End, Status Passed
+10:36:09 Waiting for Stack Master Election...
+10:36:10 POST: Thermal, Fan Tests : Begin
+10:36:10 POST: Thermal, Fan Tests : End, Status Passed
+10:36:10 
+10:36:10 POST: PortASIC Stack Port Loopback Tests : Begin
+10:36:10 POST: PortASIC Stack Port Loopback Tests : End, Status Passed
+10:36:10 
+10:36:20 POST: PortASIC Port Loopback Tests : Begin
+10:36:20 POST: PortASIC Port Loopback Tests : End, Status Passed
+10:36:20 
+10:36:21 POST: EMAC Loopback Tests : Begin
+10:36:23 POST: EMAC Loopback Tests : MAC Loopback Passed
+10:36:23 POST: EMAC Loopback Tests : PHY Loopback Passed
+10:36:23 POST: EMAC Loopback Tests : End, Status Passed
+10:36:23 
+10:36:23 Election Complete
+10:36:23 Switch 1 booting as Master
+10:36:24 Waiting for Port download...Complete
+10:36:25 Initializing Port Extension Feature Support...
+10:36:25 
+10:36:28 
+10:36:28 This product contains cryptographic features and is subject to United
+10:36:28 States and local country laws governing import, export, transfer and
+10:36:29 use. Delivery of Cisco cryptographic products does not imply
+10:36:29 third-party authority to import, export, distribute or use encryption.
+10:36:29 Importers, exporters, distributors and users are responsible for
+10:36:29 compliance with U.S. and local country laws. By using this product you
+10:36:29 agree to comply with applicable laws and regulations. If you are unable
+10:36:29 to comply with U.S. and local laws, return this product immediately.
+10:36:29 
+10:36:29 A summary of U.S. laws governing Cisco cryptographic products may be found at:
+10:36:29 http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+10:36:29 
+10:36:29 If you require further assistance please contact us by sending email to
+10:36:29 export@cisco.com.
+10:36:29 
+10:36:31 cisco WS-C2960X-24PS-L (APM86XXX) processor (revision T0) with 524288K bytes of memory.
+10:36:31 Processor board ID [*REDACTED*]
+10:36:31 Last reset from power-on
+10:36:31 1 Virtual Ethernet interface
+10:36:31 1 FastEthernet interface
+10:36:31 28 Gigabit Ethernet interfaces
+10:36:32 2 Ten Gigabit Ethernet interfaces
+10:36:32 The password-recovery mechanism is enabled.
+10:36:32 
+10:36:32 512K bytes of flash-simulated non-volatile configuration memory.
+10:36:32 Base ethernet MAC Address       : [*REDACTED*]
+10:36:32 Motherboard assembly number     : 73-16694-07
+10:36:32 Power supply part number        : 341-0528-02
+10:36:32 Motherboard serial number       : [*REDACTED*]
+10:36:32 Power supply serial number      : [*REDACTED*]
+10:36:32 Model revision number           : T0
+10:36:32 Motherboard revision number     : A0
+10:36:32 Model number                    : WS-C2960X-24PS-L
+10:36:32 Daughterboard assembly number   : 73-14200-03
+10:36:32 Daughterboard serial number     : [*REDACTED*]
+10:36:32 System serial number            : [*REDACTED*]
+10:36:32 Top Assembly Part Number        : 68-100472-04
+10:36:32 Top Assembly Revision Number    : B0
+10:36:32 Version ID                      : V06
+10:36:32 CLEI Code Number                : [*REDACTED*]
+10:36:32 Daughterboard revision number   : B0
+10:36:33 Hardware Board Revision Number  : 0x19
+10:36:33 
+10:36:33 
+10:36:33 Switch Ports Model                     SW Version            SW Image                 
+10:36:33 ------ ----- -----                     ----------            ----------               
+10:36:33 *    1 30    WS-C2960X-24PS-L          15.2(7)E0a            C2960X-UNIVERSALK9-M     
+10:36:33 
+10:36:58 
+10:36:58 
+10:36:58 
+10:36:58 Press RETURN to get started!
+10:36:58 
+10:36:58 
+10:36:59 *Mar  1 00:00:41.006: Read env variable - LICENSE_BOOT_LEVEL = 
+10:36:59 *Jan  2 00:00:00.153: %IOS_LICENSE_IMAGE_APPLICATION-6-LICENSE_LEVEL: Module name = c2960x_lanbase Next reboot level = lanbase and License = lanbase
+10:36:59 Mar 10 09:36:37.120:  in Switch 0. Cannot read pid from Flexstack module
+10:36:59 
+10:36:59 Mar 10 09:37:08.728: %STACKMGR-4-SWITCH_ADDED: Switch 1 has been ADDED to the stack
+10:36:59 Mar 10 09:37:10.157: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+10:37:00 Mar 10 09:37:10.161: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0, changed state to down
+10:37:00 Mar 10 09:37:15.096: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+10:37:00 Mar 10 09:37:38.179: %STACKMGR-5-SWITCH_READY: Switch 1 is READY
+10:37:00 Mar 10 09:37:38.179: %STACKMGR-4-STACK_LINK_CHANGE: Stack Port 1 Switch 1 has changed to state DOWN
+10:37:00 Mar 10 09:37:38.179: %STACKMGR-4-STACK_LINK_CHANGE: Stack Port 2 Switch 1 has changed to state DOWN
+10:37:00 Mar 10 09:37:38.710: %STACKMGR-5-MASTER_READY: Master Switch 1 is READY
+10:37:01 Mar 10 09:37:38.832: %SYS-5-RESTART: System restarted --
+10:37:01 Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(7)E0a, RELEASE SOFTWARE (fc1)
+10:37:01 Technical Support: http://www.cisco.com/techsupport
+10:37:01 Copyright (c) 1986-2019 by Cisco Systems, Inc.
+10:37:01 Compiled Fri 12-Apr-19 04:09 by prod_rel_team
+10:37:01 Mar 10 09:37:40.818: %LINK-3-UPDOWN: Interface FastEthernet0, changed state to down
+10:37:01 Mar 10 09:37:41.821: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0, changed state to down
+10:37:13 
+10:37:13 
+10:37:14 Mar 10 09:37:41.894: %USB_CONSOLE-6-MEDIA_RJ45: Console media-type is RJ45.
+10:37:14 
+10:37:14 
+10:37:14          --- System Configuration Dialog ---
+10:37:14 
+10:37:14 Enable secret warning
+10:37:14 
+10:37:14 ----------------------------------
+10:37:14 In order to access the device manager, an enable secret is required
+10:37:14 If you enter the initial configuration dialog, you will be prompted for the enable secret
+10:37:14 If you choose not to enter the intial configuration dialog, or if you exit setup without setting the enable secret,
+10:37:14 please set an enable secret using the following CLI in configuration mode-
+10:37:14 enable secret 0 <cleartext password>
+10:37:14 ----------------------------------
+10:37:14 Would you like to enter the initial configuration dialog? [yes/no]: 
+10:37:14 % Please answer 'yes' or 'no'.
+10:37:14 Would you like to enter the initial configuration dialog? [yes/no]: 
+10:37:14 % Please answer 'yes' or 'no'.
+10:37:16 no
+10:37:16 Would you like to enter the initial configuration dialog? [yes/no]: no
+10:37:19 
+10:37:19 Switch>
