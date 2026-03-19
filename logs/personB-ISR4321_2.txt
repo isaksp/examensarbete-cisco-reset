@@ -1,0 +1,164 @@
+16:01:32 Initializing Hardware ...
+16:01:44 
+16:01:45 
+16:01:46 Checking for PCIe device presence...done
+16:01:46 System integrity status: 0x610
+16:01:50 Rom image verified correctly
+16:01:50 
+16:01:50 
+16:01:50 System Bootstrap, Version 16.12(2r), RELEASE SOFTWARE
+16:01:50 Copyright (c) 1994-2019  by cisco Systems, Inc.
+16:01:50 
+16:01:50 
+16:01:50 Current image running: Boot ROM1
+16:01:50 
+16:01:50 Last reset cause: PowerOn
+16:01:50 ISR4321/K9 platform with 4194304 Kbytes of main memory
+16:01:50 
+16:01:50 
+16:01:50 .
+16:01:51 
+16:01:51 rommon 1 > 
+16:01:51 confreg 0x2142
+16:01:51 boot
+16:01:52 rommon 1 > confreg 0x2142
+16:01:52 
+16:01:55 You must reset or power cycle for new config to take effect
+16:01:55 rommon 2 > boot
+16:01:55 Located isr4300-universalk9.03.16.04b.S.155-3.S4b-ext.SPA.bin
+16:02:47 #################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+16:02:47 
+16:02:47 Package header rev 1 structure detected
+16:02:47 IsoSize = 471482368
+16:02:52 Calculating SHA-1 hash...Validate package: SHA-1 hash:
+16:02:52 	calculated 92A40F6F:F8586BC3:F00F114B:EFB43257:B9728643
+16:02:52 	expected   92A40F6F:F8586BC3:F00F114B:EFB43257:B9728643
+16:03:00 RSA Signed RELEASE Image Signature Verification Successful.
+16:03:02 Image validated
+16:03:15 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 1 contained errors which were auto-corrected.
+16:03:15 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 5 contained errors which were auto-corrected.
+16:03:15 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 6 contained errors which were auto-corrected.
+16:03:15 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 7 contained errors which were auto-corrected.
+16:03:16 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 8 contained errors which were auto-corrected.
+16:03:16 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 9 contained errors which were auto-corrected.
+16:03:16 %IOSXEBOOT-4-FILESYS_ERRORS_CORRECTED: (rp/0): bootflash 10 contained errors which were auto-corrected.
+16:03:18 %IOSXEBOOT-4-BOOT_SRC: (rp/0): mounting /boot/super.iso to /tmp/sw/isos
+16:03:54 Mar 17 16:08:54.823 R0/0: %FLASH_CHECK-3-DISK_QUOTA: Flash disk quota exceeded [free space is 1124280 kB] - Please clean up files on bootflash. 
+
+16:04:26 
+16:04:26               Restricted Rights Legend
+16:04:26 
+16:04:26 Use, duplication, or disclosure by the Government is
+16:04:26 subject to restrictions as set forth in subparagraph
+16:04:26 (c) of the Commercial Computer Software - Restricted
+16:04:26 Rights clause at FAR sec. 52.227-19 and subparagraph
+16:04:26 (c) (1) (ii) of the Rights in Technical Data and Computer
+16:04:26 Software clause at DFARS sec. 252.227-7013.
+16:04:26 
+16:04:26            cisco Systems, Inc.
+16:04:26            170 West Tasman Drive
+16:04:26            San Jose, California 95134-1706
+16:04:27 
+16:04:27 
+16:04:27 
+16:04:27 Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 15.5(3)S4b, RELEASE SOFTWARE (fc1)
+16:04:27 Technical Support: http://www.cisco.com/techsupport
+16:04:27 Copyright (c) 1986-2016 by Cisco Systems, Inc.
+16:04:27 Compiled Mon 17-Oct-16 20:23 by mcpre
+16:04:27 
+16:04:27 
+16:04:27 
+16:04:27 Cisco IOS-XE software, Copyright (c) 2005-2016 by cisco Systems, Inc.
+16:04:27 All rights reserved.  Certain components of Cisco IOS-XE software are
+16:04:27 licensed under the GNU General Public License ("GPL") Version 2.0.  The
+16:04:27 software code licensed under GPL Version 2.0 is free software that comes
+16:04:27 with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+16:04:27 GPL code under the terms of GPL Version 2.0.  For more details, see the
+16:04:27 documentation or "License Notice" file accompanying the IOS-XE software,
+16:04:27 or the applicable URL provided on the flyer accompanying the IOS-XE
+16:04:27 software.
+16:04:27 
+16:04:27 
+16:04:31 % failed to initialize nvram
+16:04:38 
+16:04:38 This product contains cryptographic features and is subject to United
+16:04:38 States and local country laws governing import, export, transfer and
+16:04:38 use. Delivery of Cisco cryptographic products does not imply
+16:04:38 third-party authority to import, export, distribute or use encryption.
+16:04:39 Importers, exporters, distributors and users are responsible for
+16:04:39 compliance with U.S. and local country laws. By using this product you
+16:04:39 agree to comply with applicable laws and regulations. If you are unable
+16:04:39 to comply with U.S. and local laws, return this product immediately.
+16:04:39 
+16:04:39 A summary of U.S. laws governing Cisco cryptographic products may be found at:
+16:04:39 http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+16:04:39 
+16:04:39 If you require further assistance please contact us by sending email to
+16:04:39 export@cisco.com.
+16:04:39 
+16:04:39 
+16:04:39  Parameter map cws-tunnel global not configuredcisco ISR4321/K9 (1RU) processor with 1648789K/6147K bytes of memory.
+16:04:39 Processor board ID [*REDACTED*]
+16:04:39 2 Gigabit Ethernet interfaces
+16:04:39 2 Serial interfaces
+16:04:40 32768K bytes of non-volatile configuration memory.
+16:04:40 4194304K bytes of physical memory.
+16:04:40 3125247K bytes of flash memory at bootflash:.
+16:04:47 
+16:04:47 Press RETURN to get started!
+16:04:47 
+16:04:47 
+16:04:47 *Mar 17 16:09:27.854: %SMART_LIC-6-AGENT_READY: Smart Agent for Licensing is initialized
+16:04:48 *Mar 17 16:09:29.724: %IOS_LICENSE_IMAGE_APPLICATION-6-LICENSE_LEVEL: Module name = esg Next reboot level = securityk9 and License = securityk9
+16:04:48 *Mar 17 16:09:29.753: %IOS_LICENSE_IMAGE_APPLICATION-6-LICENSE_LEVEL: Module name = esg Next reboot level = ipbasek9 and License = ipbasek9
+16:04:48 *Mar 17 16:09:29.939: %ISR_THROUGHPUT-6-LEVEL: Throughput level has been set to 50000 kbps
+16:04:48 *Mar 17 16:09:31.700: %IOSXE_RP_NV-3-NV_ACCESS_FAIL: Initial read of NVRAM contents failed
+16:04:48 
+16:04:48 *Mar 17 16:09:35.329: dev_pluggable_optics_selftest attribute table internally inconsistent @ 0x144
+16:04:48 
+16:04:49 *Mar 17 16:09:39.072: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+16:04:49 *Mar 17 16:09:40.078: %LINK-3-UPDOWN: Interface Lsmpi0, changed state to up
+16:04:49 *Mar 17 16:09:40.079: %LINK-3-UPDOWN: Interface EOBC0, changed state to up
+16:04:49 *Mar 17 16:09:40.079: %LINK-3-UPDOWN: Interface GigabitEthernet0, changed state to down
+16:04:49 en
+16:04:49 erase startup-config
+16:04:49 
+16:04:49 conf t
+16:04:49 config-register 0x2102
+16:04:49 
+16:04:49 *Mar 17 16:09:40.087: %LINK-3-UPDOWN: Interface LIIN0, changed state to up
+16:04:49 *Mar 17 16:09:41.415: %IOSXE_MGMTVRF-6-CREATE_SUCCESS_INFO: Management vrf Mgmt-intf created with ID 1, ipv4 table-id 0x1, ipv6 table-id 0x1E000001
+16:04:50 *Mar 17 16:09:41.465: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+16:04:50 *Mar 17 16:09:41.466: %LINEPROTO-5-UPDOWN: Line protocol on Interface Lsmpi0, changed state to up
+16:04:50 *Mar 17 16:09:41.466: %LINEPROTO-5-UPDOWN: Line protocol on Interface EOBC0, changed state to up
+16:04:50 *Mar 17 16:09:41.466: %LINEPROTO-5-UPDOWN: Line protocol
+16:04:50 Router>en
+16:04:50 Router#erase startup-config
+16:04:50 Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+16:04:50  on Interface GigabitEthernet0, changed state to down
+16:04:50 *Mar 17 16:09:41.467: %LINEPROTO-5-UPDOWN: Line protocol on Interface LIIN0, changed state to up
+16:04:51 *Mar 17 16:09:42.768: %SYS-6-STARTUP_CONFIG_IGNORED: System startup configuration is ignored based on the configuration register setting.
+16:04:51 *Mar 17 16:09:42.806: %IOSXE_OIR-6-REMSPA: SPA removed from subslot 0/0, interfaces disabled
+16:04:51 *Mar 17 16:09:42.806: %IOSXE_OIR-6-REMSPA: SPA removed from subslot 0/1, interfaces disabled
+16:04:51 *Mar 17 16:09:42.811: %SPA_OIR-6-OFFLINECARD: SPA (ISR4321-2x1GE) offline in subslot 0/0
+16:04:51 *Mar 17 16:09:42.812: %SPA_OIR-6-OFFLINECARD: SPA (NIM-2T) offline in subslot 0/1
+16:04:52 *Mar 17 16:09:42.816: %IOSXE_OIR-6-INSCARD: Card (fp) inserted in slot F0
+16:04:52 *Mar 17 16:09:42.816: %IOSXE_OIR-6-ONLINECARD: Card (fp) online in slot F0
+16:04:52 *Mar 17 16:09:42.840: %IOSXE_OIR-6-INSCARD: Card (cc) inserted in slot 0
+16:04:52 *Mar 17 16:09:42.840: %IOSXE_OIR-6-ONLINECARD: Card (cc) online in slot 0
+16:04:53 *Mar 17 16:09:42.885: %IOSXE_OIR-6-INSSPA: SPA inserted in subslot 0/0[OK]
+16:04:53 Erase of nvram: complete
+16:04:53 *Mar 17 16:09:42.889: %IOSXE_OIR-6-INSSPA: SPA inserted in subslot 0/1
+16:04:53 *Mar 17 16:09:42.954: %SPA-3-ENVMON_NOT_MONITORED: SIP0: iomd:  Environmental monitoring is not enabled for ISR4321-2x1GE[0/0]
+16:04:53 *Mar 17 16:09:43.504: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+16:04:53 *Mar 17 16:09:43.504: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+16:04:53 *Mar 17 16:09:48.354: %SPA_OIR-6-ONLINECARD: SPA (ISR4321-2x1GE) online in subslot 0/0
+16:04:53 *Mar 17 16:09:50.324: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/0, c
+16:04:53 Router#conf t
+16:04:54 Enter configuration commands, one per line.  End with CNTL/Z.
+16:04:54 Router(config)#config-register 0x2102
+16:04:54 hanged state to down
+16:04:54 *Mar 17 16:09:50.347: %LINK-3-UPDOWN: Interface GigabitEthernet0/0/1, changed state to down
+16:04:54 *Mar 17 16:09:53.034: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+16:04:54 Router(config)#
+16:05:00 Router(config)#
