@@ -1,0 +1,258 @@
+11:15:49 Booting...
+11:15:49 
+Interface GE 0 link down***ERROR: PHY link is down
+11:15:49 The "IP_ADDR" environment variable is not set.
+11:15:55 
+11:15:55 The system has been interrupted prior to initializing some
+11:15:55 filesystems and loading the operating system software.
+11:15:55 Console will be reset to 9600 baud rate, need to change terminal setting first.
+11:15:55 The following commands will initialize the remaining filesystems, 
+11:15:55 and finish loading the operating system software:
+11:15:55 
+11:15:55     flash_init
+11:15:55     boot
+11:15:55 
+11:15:56 
+11:16:05 
+11:16:05 switch: 
+11:16:05 
+11:16:10 flash_init
+11:16:10 switch: flash_init
+11:16:10 Initializing Flash...
+11:16:12 
+11:16:12 flashfs[7]: 0 files, 1 directories
+11:16:12 flashfs[7]: 0 orphaned files, 0 orphaned directories
+11:16:12 flashfs[7]: Total bytes: 6784000
+11:16:12 flashfs[7]: Bytes used: 1024
+11:16:12 flashfs[7]: Bytes available: 6782976
+11:16:12 flashfs[7]: flashfs fsck took 1 seconds....done Initializing Flash.
+11:16:12 
+11:16:20 
+11:16:20 switch: 
+11:16:20 
+11:16:20 
+11:16:20 switch: 
+11:16:20 
+11:16:22 SWITCH_IGNORE_STARTUP_CFG=1
+11:16:22 switch: SWITCH_IGNORE_STARTUP_CFG=1
+11:16:22 
+11:16:24 
+11:16:24 switch: 
+11:16:24 
+11:16:24 
+11:16:24 switch: 
+11:16:24 
+11:16:26 boot
+11:16:26 switch: boot
+11:17:30 Reading full image into memory................................................................................................................................................................................................................................................................................................................................................................................................................................................................................done
+11:17:35 Bundle Image
+11:17:35 --------------------------------------
+11:17:35 Kernel Address    : 0x537796ec
+11:17:35 Kernel Size       : 0x43857f/4425087
+11:17:35 Initramfs Address : 0x53bb1c6b
+11:17:35 Initramfs Size    : 0x1cac6da/30066394
+11:17:35 Compression Format: mzip
+11:17:35 
+11:17:35 Bootable image at @ ram:0x537796ec
+11:17:35 Bootable image segment 0 address range [0x81100000, 0x81da6400] is in range [0x80180000, 0x90000000].
+11:17:39 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+11:17:40 File "flash:cat3k_caa-universalk9.16.12.13.SPA.bin" uncompressed and installed, entry point: 0x818968e0
+11:17:45 Loading Linux kernel with entry point 0x818968e0 ...
+11:17:45 Bootloader: Done loading app on core_mask: 0xf
+11:17:45 
+11:17:45 ### Launching Linux Kernel (flags = 0x5)
+11:17:45 
+11:17:45 Linux version 4.9.187 (deeratho@sjc-ads-7586) (gcc version 5.3.0 (GCC) ) #1 SMP Sun Jul 2 23:04:41 PDT 2023
+11:17:45 CVMSEG size: 2 cache lines (256 bytes)
+11:17:45 Cavium Inc. SDK-5.1.0
+11:17:45 bootconsole [early0] enabled
+11:17:46 CPU0 revision is: 000d900a (Cavium Octeon II)
+11:17:46 Checking for the multiply/shift bug... no.
+11:17:46 Checking for the daddiu bug... no.
+11:18:41 
+11:19:03 %IOSXEBOOT-b333d3ffa0ce8dc4cdd788ea6034645c-new_cksum: (rp/0): 4
+11:19:03 %IOSXEBOOT-b333d3ffa0ce8dc4cdd788ea6034645c-saved_cksum: (rp/0): 4
+11:19:35 
+11:19:35 Final tar file: mcu_ucode_bundle_8_1_0.tar
+11:20:04 
+11:20:04 Waiting for 120 seconds for other switches to boot
+11:20:04 
+11:20:05 Both links down, accelerating discovery and not waiting for other switches
+11:20:05 Switch number is 1
+11:20:21 
+11:20:21               Restricted Rights Legend
+11:20:21 
+11:20:21 Use, duplication, or disclosure by the Government is
+11:20:21 subject to restrictions as set forth in subparagraph
+11:20:21 (c) of the Commercial Computer Software - Restricted
+11:20:21 Rights clause at FAR sec. 52.227-19 and subparagraph
+11:20:21 (c) (1) (ii) of the Rights in Technical Data and Computer
+11:20:21 Software clause at DFARS sec. 252.227-7013.
+11:20:21 
+11:20:21            Cisco Systems, Inc.
+11:20:21            170 West Tasman Drive
+11:20:21            San Jose, California 95134-1706
+11:20:21 
+11:20:21 
+11:20:21 
+11:20:22 Cisco IOS Software [Gibraltar], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.12.13, RELEASE SOFTWARE (fc1)
+11:20:22 Technical Support: http://www.cisco.com/techsupport
+11:20:22 Copyright (c) 1986-2025 by Cisco Systems, Inc.
+11:20:22 Compiled Tue 25-Mar-25 03:05 by mcpre
+11:20:22 
+11:20:22 
+11:20:22 This software version supports only Smart Licensing as the software licensing mechanism.
+11:20:22 
+11:20:22 
+11:20:22 PLEASE READ THE FOLLOWING TERMS CAREFULLY. INSTALLING THE LICENSE OR
+11:20:22 LICENSE KEY PROVIDED FOR ANY CISCO SOFTWARE PRODUCT, PRODUCT FEATURE,
+11:20:22 AND/OR SUBSEQUENTLY PROVIDED SOFTWARE FEATURES (COLLECTIVELY, THE
+11:20:22 "SOFTWARE"), AND/OR USING SUCH SOFTWARE CONSTITUTES YOUR FULL
+11:20:22 ACCEPTANCE OF THE FOLLOWING TERMS. YOU MUST NOT PROCEED FURTHER IF YOU
+11:20:22 ARE NOT WILLING TO BE BOUND BY ALL THE TERMS SET FORTH HEREIN.
+11:20:22 
+11:20:22 Your use of the Software is subject to the Cisco End User License Agreement
+11:20:22 (EULA) and any relevant supplemental terms (SEULA) found at
+11:20:22 http://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html.
+11:20:22 
+11:20:23 You hereby acknowledge and agree that certain Software and/or features are
+11:20:23 licensed for a particular term, that the license to such Software and/or
+11:20:23 features is valid only for the applicable term and that such Software and/or
+11:20:23 features may be shut down or otherwise terminated by Cisco after expiration
+11:20:23 of the applicable license term (e.g., 90-day trial period). Cisco reserves
+11:20:23 the right to terminate any such Software feature electronically or by any
+11:20:23 other means available. While Cisco may provide alerts, it is your sole
+11:20:23 responsibility to monitor your usage of any such term Software feature to
+11:20:23 ensure that your systems and networks are prepared for a shutdown of the
+11:20:23 Software feature.
+11:20:23 
+11:20:23 
+11:20:25 
+11:20:25 
+11:20:34 
+11:20:34 
+11:20:34 FIPS: Flash Key Check : Begin
+11:20:34 FIPS: Flash Key Check : End, Not Found, FIPS Mode Not Enabled
+11:20:44 
+11:20:45 All TCP AO KDF Tests Pass
+11:20:47 cisco WS-C3650-24PS (MIPS) processor (revision Z0) with 794814K/6147K bytes of memory.
+11:20:47 Processor board ID FDO2409M2X9
+11:20:47 2048K bytes of non-volatile configuration memory.
+11:20:47 4194304K bytes of physical memory.
+11:20:47 252000K bytes of Crash Files at crashinfo:.
+11:20:47 1611414K bytes of Flash at flash:.
+11:20:47 0K bytes of WebUI ODM Files at webui:.
+11:20:47 
+11:20:47 Base Ethernet MAC Address          : [*REDACTED*]
+11:20:47 Motherboard Assembly Number        : 73-15899-07
+11:20:47 Motherboard Serial Number          : [*REDACTED*]
+11:20:47 Model Revision Number              : Z0
+11:20:47 Motherboard Revision Number        : A0
+11:20:47 Model Number                       : WS-C3650-24PS
+11:20:47 System Serial Number               : [*REDACTED*]
+11:20:47 
+11:20:58 
+11:20:58 Press RETURN to get started!
+11:20:58 
+11:20:58 
+11:20:58 *Mar 10 10:16:16.930: Rommon debug: debugFlagsStr[1], flags[0x1]
+11:20:58 *Mar 10 10:16:19.816: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+11:20:59 *Mar 10 10:16:23.431: %SMART_LIC-6-AGENT_READY: Smart Agent for Licensing is initialized
+11:20:59 *Mar 10 10:16:23.432: %SMART_LIC-6-AGENT_ENABLED: Smart Agent for Licensing is enabled 
+11:20:59 *Mar 10 10:16:23.435: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowedRA Tracing tool registry return: 0
+11:20:59 *Mar 10 10:16:36.858: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+11:20:59 *Mar 10 10:16:38.697: %LINK-3-UPDOWN: Interface Lsmpi18/3, changed state to up
+11:20:59 *Mar 10 10:16:38.699: %LINK-3-UPDOWN: Interface EOBC18/1, changed state to up
+11:20:59 *Mar 10 10:16:38.700: %LINEPROTO-5-UPDOWN: Line protocol on Interface LI-Null0, changed state to up
+11:20:59 *Mar 10 10:16:38.702: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to down
+11:20:59 *Mar 10 10:16:38.702: %LINK-3-UPDOWN: Interface LIIN18/2, changed state to up
+11:20:59 *Mar 10 10:16:39.073: %HMANRP-6-HMAN_IOS_CHANNEL_INFO: HMAN-IOS channel event for switch 1: EMP_RELAY: Channel UP!
+11:21:00 *Mar 10 10:16:39.085: %HMANRP-6-EMP_NO_ELECTION_INFO: Could not elect active EMP switch, setting emp active switch to 0: EMP_RELAY: Could not elect switch with mgmt port UP
+11:21:00 *Mar 10 10:15:57.138: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 1 on Switch 1 is nocable
+11:21:00 *Mar 10 10:15:57.139: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 2 on Switch 1 is down
+11:21:00 *Mar 10 10:15:57.141: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 2 on Switch 1 is nocable
+11:21:00 *Mar 10 10:15:57.142: %STACKMGR-4-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 1 has been added to the stack.
+11:21:00 *Mar 10 10:16:02.257: %STACKMGR-4-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 1 has been added to the stack.
+11:21:00 *Mar 10 10:16:04.259: %STACKMGR-4-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 1 has been added to the stack.
+11:21:00 *Mar 10 10:16:04.260: %STACKMGR-6-ACTIVE_ELECTED: Switch 1 R0/0: stack_mgr: Switch 1 has been elected ACTIVE.
+11:21:01 *Mar 10 10:16:39.101: %HMANRP-6-EMP_NO_ELECTION_INFO: Could not elect active EMP switch, setting emp active switch to 0: EMP_RELAY: Could not elect switch with mgmt port UP
+11:21:01 *Mar 10 10:16:39.110: %SMART_LIC-6-HA_ROLE_CHANGED: Smart Agent HA role changed to Active.
+11:21:01 *Mar 10 10:16:39.747: %LINEPROTO-5-UPDOWN: Line protocol on Interface Lsmpi18/3, changed state to up
+11:21:01 *Mar 10 10:16:39.748: %LINEPROTO-5-UPDOWN: Line protocol on Interface EOBC18/1, changed state to up
+11:21:01 *Mar 10 10:16:39.748: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+11:21:01 *Mar 10 10:16:39.749: %LINEPROTO-5-UPDOWN: Line protocol on Interface LIIN18/2, changed state to up
+11:21:01 *Mar 10 10:16:41.201: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+11:21:01 *Mar 10 10:16:43.684: %SYS-6-STARTUP_CONFIG_IGNORED: System startup configuration is ignored based on the configuration register setting.
+11:21:02 *Mar 10 10:16:44.273: %SYS-5-CONFIG_P: Configured programmatically by process CPP MQC QoS Policy manager from console as vty2
+11:21:02 *Mar 10 10:16:44.424: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+11:21:02 *Mar 10 10:16:44.463: %IOSXE_MGMTVRF-3-AFI_ATTACH_FAIL: Management VRF AFI ipv6 attach failed
+11:21:02 *Mar 10 10:16:44.535: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+11:21:02 *Mar 10 10:16:44.547: %IOSXE_MGMTVRF-6-CREATE_SUCCESS_INFO: Management vrf Mgmt-vrf created with ID 1, ipv4 table-id 0x1, ipv6 table-id 0x1E000001
+11:21:02 *Mar 10 10:16:44.549: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+11:21:02 *Mar 10 10:16:45.639: %ONEP_BASE-6-SS_ENABLED: ONEP: Service set Base was enabled by Default
+11:21:02 *Mar 10 10:16:45.905: %SYS-5-RESTART: System restarted --
+11:21:02 Cisco IOS Software [Gibraltar], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.12.13, RELEASE SOFTWARE (fc1)
+11:21:02 Technical Support: http://www.cisco.com/techsupport
+11:21:03 Copyright (c) 1986-2025 by Cisco Systems, Inc.
+11:21:03 Com
+11:21:03 Switch>
+11:21:03 Switch>
+11:21:03 Switch>
+11:21:03 Switch>piled Tue 25-Mar-25 03:05 by mcpre
+11:21:03 *Mar 10 10:16:46.494: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+11:21:03 *Mar 10 10:16:46.494: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+11:21:03 *Mar 10 10:16:46.494: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+11:21:03 *Mar 10 10:16:46.494: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+11:21:03 *Mar 10 10:16:47.896: %LINK-3-UPDOWN: Interface Vlan1, changed state to up
+11:21:03 *Mar 10 10:16:50.706: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to down
+11:21:03 *Mar 10 10:16:51.481: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+11:21:03 *Mar 10 10:16:51.705: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+11:21:05 
+11:21:05 *Mar 10 10:16:54.404: %SYS-5-CONFIG_P: Configured programmatically by process EPM CREATE DEFAULT CWA URL ACL from console as console
+11:21:05 
+11:21:05 Switch>
+11:21:05 Switch>
+11:21:06 *Mar 10 10:16:57.104: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained.
+11:21:06 en
+11:21:06 *Mar 10 10:16:57.127: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY created succesfully
+11:21:06 *Mar 10 10:16:57.169: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI_LEGACY has been generated or imported by pki-sudi
+11:21:06 *Mar 10 10:16:57.269: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY0 created succesfully
+11:21:06 *Mar 10 10:16:57.283: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI created succesfully
+11:21:06 *Mar 10 10:16:57.321: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI has been generated or imported by pki-sudien
+11:21:06 
+11:21:06 Switch#
+11:21:06 
+11:21:06 Switch#
+11:21:06 Switch#
+11:21:06 
+11:21:07 *Mar 10 10:16:57.531: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI0 created succesfully
+11:21:07 *Mar 10 10:16:57.541: %IOSXE_INFRA-6-PROCPATH_CLIENT_HOG: IOS shim client 'pkissl reader mqipc' has taken 258 msec (runtime: 252 msec) to process a 'unknown' message
+11:21:11 erase startup-config
+11:21:11 Switch#erase startup-config
+11:21:15 
+11:21:15 
+11:21:16 Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+11:21:16 [OK]
+11:21:16 Erase of nvram: complete
+11:21:16 Switch#
+11:21:17 
+11:21:17 Switch#
+11:21:17 
+11:21:17 Switch#
+11:21:17 Switch#
+11:21:18 conf t
+11:21:18 *Mar 10 10:17:08.195: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvramconf t
+11:21:18 Enter configuration commands, one per line.  End with CNTL/Z.
+11:21:20 
+11:21:20 Switch(config)#
+11:21:20 
+11:21:20 Switch(config)#
+11:21:21 
+11:21:21 Switch(config)#
+11:21:22 no system ignore startupconfig switch all
+11:21:22 Switch(config)#no system ignore startupconfig switch all
+11:21:23 
+11:21:23 
+11:21:23 
+11:21:24 Applying config on Switch 1...[DONE]
+11:21:24 Switch(config)#
