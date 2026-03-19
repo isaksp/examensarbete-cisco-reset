@@ -1,0 +1,265 @@
+16:54:54 
+General initialization - Version: 1.0.0
+16:54:54 
+Serdes initialization - Version: 1.0.2
+16:54:54 
+** Link is Gen1, check the EP capability 
+16:54:54 
+PEX: pexIdx 0, Link upgraded to Gen2 based on client capabilities 
+16:54:54 
+DDR3 Training Sequence - Ver TIP-1.56.0
+16:54:54 
+DDR3 Training Sequence - Switching XBAR Window to FastPath Window 
+16:54:54 
+DDR3 Training Sequence - Ended Successfully
+16:54:54 
+BootROM: Image checksum verification PASSED
+16:54:54 
+
+16:54:54 
+
+16:54:54 
+Board SKU ID is (3)
+16:54:55 
+FPU initialized to Run Fast Mode.
+16:54:55 
+FPGA: 7.0
+16:54:55 
+PCI-e 0: Detected Link.
+16:54:55 
+PCI-e 0: (bus 0) , Detected Link X1, GEN 2.0
+16:54:55 
+DRAM Size: 512 MB
+16:54:55 
+Xmodem file system is available.
+16:54:55 
+USB EHCI 1.00
+16:54:55 
+Using driver version 1 for media type 3
+16:54:56 
+yaffs[9]: Initialization complete.
+16:54:56 
+
+16:54:56 
+yaffs[10]: Initialization complete.
+16:54:56 
+
+16:55:01 
+16:55:01 
+yaffs[11]: Initialization complete.
+16:55:01 
+
+16:55:02 
+Base ethernet MAC Address: [*REDACTED*]
+16:55:02 
+The password-recovery mechanism is enabled.
+16:55:02 
+
+16:55:02 
+*** The system will autoboot in 5 seconds ***
+16:55:02 
+Send break character to prevent autobooting.
+16:55:02 
+
+16:55:02 
+
+16:55:02 
+The system has been interrupted. The following commands
+16:55:02 
+will finish loading the operating system software:
+16:55:02 
+
+16:55:03 
+    boot
+16:55:03 
+
+16:55:03 
+16:55:03 delete flash:config.text
+16:55:03 y
+16:55:03 boot
+16:55:03 
+switch: 
+16:55:03 
+
+16:55:03 
+switch: delete flash:config.text
+16:55:03 
+Are you sure you want to delete "flash:config.text" (y/n)?y
+16:55:04 
+File "flash:config.text" deleted
+16:55:04 
+
+16:55:04 
+switch: boot
+16:55:04 
+16:55:04 
+config file not found..
+16:55:10 
+Loading "flash:/c1000-universalk9-mz.152-7.E4/c1000-universalk9-mz.152-7.E4.bin"...Verifying image flash:/c1000-universalk9-mz.152-7.E4/c1000-universalk9-mz.152-7.E4.bin............................................................................................................................................................................................................................................................
+16:55:10 
+Image passed digital signature verification
+16:55:18 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+16:55:18 
+File "flash:/c1000-universalk9-mz.152-7.E4/c1000-universalk9-mz.152-7.E4.bin" uncompressed and installed, entry point: 0x3000
+16:55:18 
+executing...
+16:55:19 
+
+16:55:19               Restricted Rights Legend
+16:55:19 
+16:55:19 Use, duplication, or disclosure by the Government is
+16:55:19 subject to restrictions as set forth in subparagraph
+16:55:19 (c) of the Commercial Computer Software - Restricted
+16:55:19 Rights clause at FAR sec. 52.227-19 and subparagraph
+16:55:19 (c) (1) (ii) of the Rights in Technical Data and Computer
+16:55:19 Software clause at DFARS sec. 252.227-7013.
+16:55:19 
+16:55:19            cisco Systems, Inc.
+16:55:19            170 West Tasman Drive
+16:55:19            San Jose, California 95134-1706
+16:55:19 
+16:55:19 
+16:55:19 
+16:55:19 Cisco IOS Software, C1000 Software (C1000-UNIVERSALK9-M), Version 15.2(7)E4, RELEASE SOFTWARE (fc2)
+16:55:19 Technical Support: http://www.cisco.com/techsupport
+16:55:20 Copyright (c) 1986-2021 by Cisco Systems, Inc.
+16:55:20 Compiled Mon 08-Mar-21 09:07 by prod_rel_team
+16:55:20 Initializing flash...
+16:55:20 Using driver version 1 for media type 3
+16:55:20 yaffs[8]: Initialization complete.
+16:55:20 
+16:55:20 yaffs[9]: Initialization complete.
+16:55:20 
+16:55:26 yaffs[10]: Initialization complete.
+16:55:26 
+16:55:27 ...done Initializing flash.
+16:55:27 
+16:55:27 Checking for Bootloader upgrade..
+16:55:27 
+16:55:29 Boot Loader upgrade not needed(v)PCI-e 0: Detected Link.
+16:55:29 PCI-e 0: (bus 0) , Detected Link X1, GEN 2.0
+16:55:31 
+16:55:31 MCU version 0x17
+16:55:31 Current MCU BL version 0xAE
+16:55:31 
+16:55:31 Checking for MCU firmware upgrade..
+16:55:31  New version = 0x17
+16:55:31  Current version = 0x17
+16:55:31 
+16:55:33 MCU Upgrade not needed!!
+16:55:33 INIT: Pp init completed.
+16:55:33 
+16:55:33 INIT: ASIC 0 phases init completed.
+16:55:33 
+16:55:33 INIT: ASIC 1 phases init completed.
+16:55:33 
+16:55:33 INIT: phases init completed.
+16:55:34 INIT: features init completed.
+16:55:34 
+16:55:40 POST: PortASIC Port Loopback Tests : Begin
+16:55:40 POST: PortASIC Port Loopback Tests : End, Status Passed
+16:55:40 
+16:55:43 POST: ACT2 Authentication : Begin
+16:55:43 POST: ACT2 Authentication : End, Status Passed
+16:55:43 Waiting for Stack Master Election...
+16:55:43 POST: Thermal Tests : Begin
+16:55:43 POST: Thermal Tests : End, Status Passed
+16:55:43 
+16:55:43 Election Complete
+16:55:43 Switch 1 booting as Master
+16:55:43 Initializing Device Manager...
+16:55:43 Waiting for Port download...Complete
+16:55:45 Initializing OBFL Module......done
+16:55:45 
+16:55:46 
+16:55:46 This product contains cryptographic features and is subject to United
+16:55:46 States and local country laws governing import, export, transfer and
+16:55:46 use. Delivery of Cisco cryptographic products does not imply
+16:55:46 third-party authority to import, export, distribute or use encryption.
+16:55:46 Importers, exporters, distributors and users are responsible for
+16:55:46 compliance with U.S. and local country laws. By using this product you
+16:55:46 agree to comply with applicable laws and regulations. If you are unable
+16:55:46 to comply with U.S. and local laws, return this product immediately.
+16:55:46 
+16:55:47 A summary of U.S. laws governing Cisco cryptographic products may be found at:
+16:55:47 http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+16:55:47 
+16:55:47 If you require further assistance please contact us by sending email to
+16:55:47 export@cisco.com.
+16:55:47 
+16:55:48 cisco C1000-48T-4G-L (Marvell PJ4B (584) v7 (Rev 2)) processor (revision B0) with 524288K bytes of memory.
+16:55:48 Processor board ID [*REDACTED*]
+16:55:48 Last reset from Reload
+16:55:48 1 Virtual Ethernet interface
+16:55:48 52 Gigabit Ethernet interfaces
+16:55:48 The password-recovery mechanism is enabled.
+16:55:48 
+16:55:48 512K bytes of flash-simulated non-volatile configuration memory.
+16:55:48 Base ethernet MAC Address       : [*REDACTED*]
+16:55:48 Motherboard assembly number     : 69BBA5M1LA01
+16:55:48 Power supply part number        : 341-100561-01
+16:55:48 Motherboard serial number       : [*REDACTED*]
+16:55:48 Power supply serial number      : [*REDACTED*]
+16:55:48 Model revision number           : B0
+16:55:48 Motherboard revision number     : 2
+16:55:48 Model number                    : C1000-48T-4G-L
+16:55:48 System serial number            : [*REDACTED*]
+16:55:48 Top Assembly Part Number        : 74-122916-02
+16:55:49 Top Assembly Revision Number    : B0
+16:55:49 Version ID                      : V02
+16:55:49 CLEI Code Number                : [*REDACTED*]
+16:55:49 Hardware Board Revision Number  : 0x01
+16:55:49 
+16:55:49 
+16:55:49 Switch Ports Model                     SW Version            SW Image                 
+16:55:49 ------ ----- -----                     ----------            ----------               
+16:55:49 *    1 52    C1000-48T-4G-L            15.2(7)E4             C1000-UNIVERSALK9-M      
+16:55:49 
+16:56:10 
+16:56:10 %Error opening tftp://255.255.255.255/network-confg (Socket error)
+16:56:10 %Error opening tftp://255.255.255.255/cisconet.cfg (Socket error)
+16:56:10 %Error opening tftp://255.255.255.255/switch-confg (Socket error)
+16:56:15 %Error opening tftp://255.255.255.255/ciscortr.cfg (Socket error)
+16:56:15 
+16:56:15 
+16:56:15 Press RETURN to get started!
+16:56:15 
+16:56:15 
+16:56:15 *Mar  1 00:00:01.293: 
+16:56:15 Board SKU ID is (3)
+16:56:15 
+16:56:15 *Mar  1 00:00:24.976: %STACKMGR-4-SWITCH_ADDED: Switch 1 has been ADDED to the stack
+16:56:15 *Mar  1 00:00:26.042: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+16:56:16 *Mar 17 17:04:52.524: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+16:56:16 *Mar 17 17:04:53.043: %PNP-6-PNP_DISCOVERY_STARTED: PnP Discovery started
+16:56:16 *Mar 17 17:05:13.817: %STACKMGR-5-SWITCH_READY: Switch 1 is READY
+16:56:16 
+16:56:16 *Mar 17 17:05:13.817: %STACKMGR-4-STACK_LINK_CHANGE: Stack Port 1 Switch 1 has changed to state DOWN
+16:56:16 
+16:56:16 no
+16:56:16 *Mar 17 17:05:13.817: %STACKMGR-4-STACK_LINK_CHANGE: Stack Port 2 Switch 1 has changed to state DOWN
+16:56:16 
+16:56:16 *Mar 17 17:05:14.217: %STACKMGR-5-MASTER_READY: Master Switch 1 is READY
+16:56:17 *Mar 17 17:05:15.567: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/network-confg) failed
+16:56:17 *Mar 17 17:05:15.568: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/cisconet.cfg) f
+16:56:17 
+16:56:17 
+16:56:17          --- System Configuration Dialog ---
+16:56:17 
+16:56:17 Enable secret warning
+16:56:17 ----------------------------------
+16:56:17 In order to access the device manager, an enable secret is required
+16:56:17 If you enter the initial configuration dialog, you will be prompted for the enable secret
+16:56:17 If you choose not to enter the intial configuration dialog, or if you exit setup without setting the enable secret,
+16:56:17 please set an enable secret using the following CLI in configuration mode-
+16:56:17 enable secret 0 <cleartext password>
+16:56:17 ---------ailed
+16:56:17 *Mar 17 17:05:15.569: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/switch-confg) failed
+16:56:18 *Mar 17 17:05:15.570: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/ciscortr.cfg) failed
+16:56:18 *Mar 17 17:05:15.570: %SYS-5-RESTART: System restarted --
+16:56:18 Cisco IOS Software, C1000 Software (C1000-UNIVER-------------------------
+16:56:18 Would you like to enter the initial configuration dialog? [yes/no]: 
+16:56:18 % Please answer 'yes' or 'no'.
+16:56:18 Would you like to enter the initial configuration dialog? [yes/no]: no
+16:56:18 Switch>
